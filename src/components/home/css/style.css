@@ -1,0 +1,30 @@
+.nav{
+    width: 100vw;
+    display: flex;
+    background-color:#CAD5E2;
+    height: 100px;
+    gap: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.serch-mainDiv{
+    display: flex;
+    margin-right: 300px;
+}
+
+.logo-h2{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.img{
+    width: 100px;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgba(29, 78, 216);
+}
