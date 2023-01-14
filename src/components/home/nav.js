@@ -24,7 +24,7 @@ const Nav = () => {
 
     useEffect(() => {
         control()
-    }, [serchData])
+    })
     return (
         <>
 

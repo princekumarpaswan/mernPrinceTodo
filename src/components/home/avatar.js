@@ -9,7 +9,7 @@ const Avatar = () => {
     const [name, setName] = useState('')
 
     let id = localStorage.getItem("id")
-    const getUser = async () => {
+    async function getUser() {
         const getdata = await axios.get(`/getUserName/${id}`)
         const text = getdata.data.users.name
         console.log(text);
@@ -20,7 +20,7 @@ const Avatar = () => {
 
     useEffect(() => {
         getUser();
-    }, [name]);
+    });
 
     return (
         <>
