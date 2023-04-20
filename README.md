@@ -16,5 +16,5 @@ This app is responsive for mobiles
 ![](m7.png)
 ![](m8.png)
 ![](m9.png)
-![](m10.png)
+![](m10.png). 
 
